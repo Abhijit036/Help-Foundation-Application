@@ -43,7 +43,7 @@ def main():
     in_data=[ch_m,exp,hel,imp,inc,inf,lf,fer,gdp]
 
     if st.button('Predict'):
-        response = prediction(in_data)
+        response = predict(in_data)
         st.success(response)
 
 if __name__=='__main__':
